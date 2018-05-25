@@ -1,0 +1,228 @@
+
+
+body,html {
+	margin: 0;
+}
+img {
+	max-width: 100%;
+}
+
+.header {
+	width: 100%;
+	height:100vh;
+	background-image: url(../img/banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+	.header__contenedor {
+		width: 100%;
+		height: 60px;
+		background-color: #2E3338;	
+	}
+
+	.contenedor_menu {
+		width: 1200px;
+		height: 60px;
+		display: flex;
+		justify-content: space-between;
+		padding: 15px 0;
+		margin: auto;
+	}
+
+		.logo {
+			width: 10%;
+			height: 100%;
+		}
+				.logo__img {
+					height: 100%;
+				}
+
+
+		.menu {
+			width: 60%;
+			height: 40px;
+			display: flex;
+		}
+
+				.menu__link {
+					height: auto;
+					text-decoration: none;
+					display: inline-block;
+					font-family: 'Poppins';
+					color: gray;
+					font-size: 12px;
+						padding: 8px 18px;
+				}
+				.menu__link:hover{
+					height: auto;
+					text-decoration: none;
+					display: inline-block;
+					font-family: 'Poppins';
+					color: #fff;
+					font-size: 12px;
+						padding: 8px 18px;
+				}
+
+		.buscar {
+			width: 30%;
+			height: 40px;
+			/*margin-right: 120px;*/
+			display: flex;
+
+			font-family: 'Poppins';
+		}
+				.formulario {
+					width: 100%;
+					height: 40px;
+					overflow: hidden;
+					display: flex;
+				}
+
+						.formulario__item {
+							text-decoration: none;
+							display: inline-block;
+							height: 30px;
+							border-radius: 4px;
+							color:blue;
+							font-family: 'Poppins';
+						}
+
+
+						.boton {
+							height: 30px;
+							text-decoration: none;
+							display: inline-block;
+							color: #FFB90D;
+							font-size: 12px;
+							border: 1px solid #FFB90D;
+							padding: 8px 10px 0 10px ;
+							margin: 0 10px;
+							border-radius: 4px;
+						}
+
+
+/********************************************/
+
+.promociones {
+	width: 1200px;
+	height: 500px;
+	margin: auto;
+	text-align: center;
+	padding-top: 40px;
+}
+.titulo {
+	font-family: 'Poppins';
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 40px;
+}
+.polos__contenedor {
+	display: flex;
+	justify-content: space-between;
+}
+
+.polera {
+	width: 20%;
+	height: ;
+}
+.polera__img {
+	width: 90%;
+	height: ;
+	margin: 0;
+
+}
+.precio {
+	width: ;
+	height: ;
+	font-size: 12px;
+
+	margin: 2px;
+	font-family: 'Poppins';
+	font-size: 12px;
+
+}
+.nombre {
+	width: ;
+	height: ;
+	font-size: 20px;
+
+	margin: 10px;
+	font-family: 'Poppins';
+	font-size: 15px;
+	font-weight: 500;
+
+}
+
+.boton__promociones {
+	text-decoration: none;
+	display: inline-block;
+	color:  #000;
+	background-color:#FFB90D;
+	border: 1px solid #FFB90D;
+	font-size: 12px;
+	padding: 8px 10px  ;
+		margin: 0 10px;
+		font-family: 'Poppins';
+}
+/*************************************/
+.pagos__contenedor {
+	width: 100%;
+	height: 60px;
+	background-color: #FFB90D;
+}
+.pagos {
+	width: 1200px;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px ;
+		font-family: 'Poppins';
+		font-size: 15px;
+		margin: auto;
+}
+
+/*****************************************/
+.footer {
+		background-color: #2E3338;
+}
+
+.footer__contenedor {
+	width: 1200px;
+	height: 200px;
+	display: flex;
+	margin: auto;
+
+	color: #fff;
+		padding: 40px 0;
+		font-family: 'Poppins';
+		font-size: 10px;
+		font-weight: 400;
+		line-height: 1.8;
+			justify-content: space-between;
+}
+
+.footer__categorias {
+	width: 25%;
+	height: ;
+	float: left;
+
+}
+.ttulo {
+	width: ;
+	height: ;
+	margin: 0;
+	background-color: ;
+	color: #FFB90D;
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 10px;
+
+}
+.modificador {
+	width: ;
+	height: ;
+	background-color: ;
+
+}

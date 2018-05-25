@@ -1,0 +1,748 @@
+img {
+	max-width: 100%;
+}
+
+body{
+
+}
+
+
+/*******************  HEADER  ***********************/
+/*******  Pre-menu        ******/
+.contenedor_premenu {
+	background-color: #4d4d4d;
+	width: 100%;
+	height: 32px;	
+	position: fixed;
+	z-index: 2;	
+
+}
+
+.contenedor_premenu__respaldo {
+	width: 1280px;
+	height: 32px;	
+		margin-right: auto;
+		margin-left: auto;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+} 
+
+	.pre_menu {
+		width: 280px;
+		display: flex;
+		justify-content: space-between;
+			font-family: text_proxima_nova_thin;
+	}
+
+	.pre_menu--alternativo {
+		width: 166px;
+	}
+		.pre_menu__items {
+			color: #fff;
+			font-size: 88%;
+			text-decoration: none;
+			display: inline-block;
+		}
+
+		.tiny {
+			margin-right: 2px;
+			font-size: 1.3rem;
+    		vertical-align: middle;
+		}
+
+
+/*******  Menu            ******/
+.contenedor_menu {
+	background: url(../img/banner_principa-1.jpg); 
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top; 
+	background-size: cover;
+	height: 780px;
+						padding-top: 32px; /*por el fixed*/
+
+}
+.contenedor_menu__respaldo {
+	width: 1280px;
+	height: 68px;
+		margin-right: auto;
+		margin-left: auto;
+		padding-top: 16px;
+		padding-bottom: 14px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			position: relative;
+}
+	.contenedor_menu_button {
+		display: flex;
+	}
+			.menu {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+					font-family: text_proxima_nova_thin;
+			}
+				.menu__items {
+					color: #fff;
+					font-size: 100%;
+					text-decoration: none;
+					display: inline-block;
+						margin-right: 20px;
+				}
+
+
+
+/*******  Bienvenida      ******/
+.contenedor_bienvenidos {
+	width: 515px;
+	height: 280px;
+		position: absolute;
+		top: 290px;
+			color: #fff;
+			line-height: 1.4;
+
+}
+
+
+/****************************************************/
+/*******************  MAIN    ***********************/
+
+/*******  Herramientas    ******/
+.contenedor_herramientas {
+	width: 1280px;
+	height: 655px;
+		margin-right: auto;
+		margin-left: auto;
+			text-align: center;	
+			color: #4d4d4d;
+}
+
+	.contenedor_herramientas__respaldo {
+		display: flex;
+		justify-content: space-between;
+		line-height: 1.6;
+	}
+
+	.herramientas {
+		width: 368px;
+		height: 480px;
+	}
+		.herramientas__items {
+			height: 200px;
+			padding-top: 35px;
+		}
+
+
+/*******  Funciones       ******/
+.contenedor_funciones {
+	height: 822px;
+	background-color: #F5F5F5;
+	color: #4d4d4d;
+	text-align: center;
+}
+		.contenedor_funciones__respaldo {
+			width: 1280px;
+			margin-right: auto;
+			margin-left: auto;
+		}
+
+
+		.funciones{
+			display: flex;
+			justify-content: space-between;
+				font-family: text_proxima_nova_thin;
+					margin-top: 40px;
+					margin-bottom: 40px;
+		}
+				.funciones__items {
+					width: 195px;
+					height: 50px;
+					color: #4d4d4d;
+					font-size: 100%;
+					text-decoration: none;
+					display: inline-block;
+						margin-right: 20px;
+						padding:5px 20px;
+							border: 1px solid #4d4d4d;
+							border-radius: 2px;
+							display: flex;
+							align-items: center;
+				}
+
+		.funcion_caracteristicas{
+			display: flex;
+			justify-content: space-between;
+			text-align: left;
+			line-height: 1.4;
+		}
+			.funcion_caracteristicas__img {
+				max-height: 380px;
+				margin-top: 30px;
+			}
+
+			.funcion_caracteristicas__item{
+				width: 640px;
+				height: 580px;
+			}
+
+
+/*******  Alejandro       ******/
+.contenedor_alejandro {
+	background: url(../img/Testimonial-UrbanoSt1-1440x450.png); 	
+	background-repeat: no-repeat;
+    background-position: center top; 
+	background-size: cover;
+	height: 450px;
+		color: #fff;
+			
+}		
+
+	.alejandro {
+		width: 1280px;
+		height: 450px;
+		margin-right: auto;
+		margin-left: auto;
+		position: relative;
+		line-height: 1.8;
+	}
+		.alejandro__sumilla {
+			width: 612px;
+				font-family: text_proxima_nova_thin;
+				font-size: 220%;
+				margin: 15px 0;
+					position: absolute;
+					top: 50px;
+					left: 654px;
+		}
+		.alejandro__credito {
+			width: 612px;
+			text-align: right;
+				font-family: text_proxima_nova_thin;
+				font-size: 115%;
+				position: absolute;
+					top: 345px;
+					left: 550px;
+		}
+
+/*******  Wally-Clientes  ******/
+.contenedor_wallyclientes {
+	width: 1280px;
+	height: 657px;
+		margin-right: auto;
+		margin-left: auto;
+		color: #4d4d4d;
+			text-align: center;
+}
+
+	.wallyclientes {
+		display: flex;
+		justify-content: center;
+	}
+
+		.wallyclientes_respaldo {
+				width: 450px;
+				height: 420px;
+				margin: 70px 80px 0 80px;
+						color: #4d4d4d;
+		}
+
+			.wallyclientes__items {
+						width: 450px;
+						height: 240px;
+						background: url(../img/Testimonial-Daniel-Cuestas2-450x253.jpg) no-repeat;
+							text-decoration: none;
+							display: inline-block;
+								display: flex;
+								justify-content: center;
+								align-items: center;
+								color: #fff;
+			}
+
+			.wallyclientes__items--alternativo {
+						width: 450px;
+						height: 240px;
+						background: url(../img/Testimonial-Francisco-2-450x253.jpg) no-repeat;
+							text-decoration: none;
+							display: inline-block;
+								display: flex;
+								justify-content: center;
+								align-items: center;
+								color: #fff;
+			}
+
+					.wallyclientes__items__img {
+						height: 8%;
+						margin-right: 8px;
+					}
+
+					.wallyclientes__items:hover h3 {
+						display: none;
+					}
+					.wallyclientes__items:hover img {
+						height: 30%;
+					}
+
+
+
+
+
+/*******  Negocios        ******/
+.contenedor_negocios {
+	height: 677px;
+	background-color: #F5F5F5;
+}
+	.contenedor_negocios_respaldo {
+		width: 1280px;
+		height: 677px;
+		margin-right: auto;
+		margin-left: auto;
+			text-align: center;
+	}
+
+			.negocios {
+				width: 1280px;
+				display: flex;
+				justify-content: space-between;
+					margin-top: 50px;
+					color: #fff;
+			}
+				.negocios__items {
+					background: url(../img/tipo_negocio_restaurant.png) no-repeat;
+					width: 410px;
+					height: 380px;
+						text-decoration: none;
+						display: inline-block;
+						color: #fff;
+							padding-top: 40px;
+							padding-right: 40px;
+				}
+				.negocios__items--b {
+					background: url(../img/tipo_negocio_retail.png) no-repeat;
+				}
+				.negocios__items--c {
+					background: url(../img/tipo_negocio_fastfood.png) no-repeat;
+				}
+
+
+
+/*******  Equipos         ******/
+.contenedor_equipos {
+	width: 1280px;
+	height: 1145px;
+		margin-right: auto;
+		margin-left: auto;
+  		color: #4d4d4d;
+  			text-align: center;
+}
+	.contenedor_equipos__respaldo {
+		display: flex;
+		margin-top: 50px;
+		display: flex;
+		justify-content: space-between;
+	}
+		.equipos {
+			text-align: left;
+			width: 410px;
+			height: 420px;
+		}
+			.equipos__items {
+				width: 410px;
+				height: 160px;
+
+			}
+
+
+
+/*******  Vender          ******/
+.contenedor_vender {
+	height: 505px;
+	background-color: #f5f5f5;
+	color: #4d4d4d;
+}
+
+	.contenedor_vender_respaldo {
+		width: 1280px;
+		margin-right: auto;
+		margin-left: auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-top: 50px;
+	}
+
+		.vender {
+			
+		}
+
+			.vender__img {
+
+			}
+
+
+/*******  Clientes        ******/
+.contenedor_clientes {
+	width: 1280px;
+	height: 680px;
+		margin-right: auto;
+		margin-left: auto;
+  		color: #4d4d4d;
+  			text-align: center;
+}
+
+		.clientes {
+			width: 1280px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-top: 50px;
+		}
+			.clientes__items {
+				background: url(../img/testimonial_img_background_3.png) no-repeat;
+				width: 300px;
+				height: 520px;
+					display: flex;
+					flex-direction:column;
+					justify-content: center;
+					align-items: center;
+						border: 0.1px solid rgba(163, 163, 163, 0.2);
+			}
+
+		.clientes__items__img {
+					
+				}
+
+
+						.clientes__items__img--a {
+							background: url(../img/Back-Urb.png) no-repeat;	
+						}
+						.clientes__items__img--b {
+							background: url(../img/Back-infu1.png) no-repeat;	
+						}
+
+
+
+/*******  Empresas        ******/
+.contenedor_empresas {
+	width: 1280px;
+	height: 670px;
+		margin-right: auto;
+		margin-left: auto;
+	 	color: #4d4d4d;
+	 		text-align: center;
+	 			margin-top: 50px;
+}
+
+	.contenedor_empresas__respaldo {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 70px;
+	}
+			.empresas {
+				width: 270px;
+				
+			}
+					.empresas__items {
+						margin-bottom: 40px;
+					}
+
+
+
+/*******  Precios         ******/
+.contenedor_precios {
+	height: 1270px;
+	color: #4d4d4d;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+	.contenedor_precios__respaldo {
+		margin-top: 120px;
+
+	}
+		.precios {
+			width: 1280px;
+			margin-right: auto;
+			margin-left: auto;
+				display: flex;
+				justify-content: space-between;
+					line-height: 1.6;
+		}
+
+
+			.precios__items {
+				width: 400px;
+				height: 720px;
+					border-radius: 5px;
+					box-shadow: 0 0 1px 1px #434343;
+			}
+			.precios__items:hover {
+					box-shadow: 0 0 8px 1px #434343;
+			}
+				
+/*
+
+http://www.bufa.es/css-dibujar-triangulos/
+https://outlook.live.com/owa/?authRedirect=true
+http://lelandoriginals.com/
+https://www.webdesign-inspiration.com/web-designs/industry/music
+https://veritydemo.wordpress.com/portfolio/michael/?demo
+https://veritydemo.wordpress.com/?demo
+
+
+
+*/
+		
+
+						.item_nombre {
+							height: 130px;
+							background-color: #434343;
+							color: #fff;
+							border-radius: 4px  4px 0 0;
+						}
+										.triangulo_top_right {
+											 width: 0;
+											 height: 0;
+											 border-top: 100px solid #000; 
+											 border-left: 100px solid transparent;	
+											 position: relative;
+											 border-radius: 2px;
+
+										}
+
+						.item_caracteristicas {
+
+						}
+
+
+
+		.caja_adicional {
+			width: 870px;
+			height: 170px;
+			display: flex;
+			justify-content: space-between;
+				margin-top: 50px;
+				padding:15px; 
+					border-radius: 5px;
+					box-shadow: 0 0 1px 1px #434343;
+		}
+		.caja_adicional:hover {
+					box-shadow: 0 0 8px 1px #434343;
+		}
+
+				.caja_adicional__item__descripcion {
+					width: 500PX;
+					text-align: left;
+				}
+
+
+				.caja_adicional__item__precio {
+					width: 260px;
+				}
+
+/*******  contacto        ******/
+.contenedor_contacto {
+	width: 1280px;
+	height: 628px;
+		margin-right: auto;
+		margin-left: auto;
+			color: #4d4d4d;
+}
+	.contenedor_contacto__respaldo {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 50px;
+		margin-bottom: 80px;
+	}	
+
+			.contactos {
+				display: flex;
+				justify-content: space-between;
+			}
+
+				.contactos__items  {
+					display: flex;
+					align-items: center;
+					line-height: 0.2;
+					font-size: 110%;
+				}
+
+					.contactos__items__icono {
+						margin-right: 15px;
+					}
+
+
+/****************************************************/
+/*******************  FOOTER  ***********************/
+/*******  footer          ******/
+.contenedor_footer {
+	height: 280px;
+	background-color: #4d4d4d;	
+	color: #fff;
+}
+		.contenedor_footer__respaldo {
+			width: 1280px;
+				margin-right: auto;
+				margin-left: auto;
+				margin-bottom: 80px;
+				padding: 10px 0;
+					display: flex;
+					justify-content: flex-start;
+					align-items: flex-start;
+		}
+				.footer {
+					width: 180px;
+					line-height: 1.6;
+					margin-right: 10px;
+					font-size: 90%;
+							line-height: 1.9;
+				}
+					.footer__items {
+						text-decoration: none;
+						display: inline-block;
+						color: #fff;
+					}
+
+
+.copyright {
+	height: 50px;
+	display:flex;
+	justify-content: space-between;
+	font-size: 90%; 
+}
+
+	.copyright__respaldo {
+	width: 1280px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+	.copyright__item {
+		text-decoration: none;
+		display: inline-block;
+		color: #4d4d4d;
+	}
+
+		.logo {
+			margin-right: 100px;
+			margin-left: 100px;
+			margin-top: 80px;
+		}
+
+/****************************************************/
+
+
+
+
+
+
+
+
+
+
+
+/*@@@@@  Genericos   @@@@@*/
+
+.wally_button {
+	color: #fff;
+    font-family: text_proxima_nova_thin;
+    font-size: 105%;
+    display: inline-block;
+    text-decoration: none;
+	    background-color: #00D081;
+	    border-radius: 2px;
+	    padding: 10px 35px;
+	    	margin: 10px 0;	
+}		
+
+.pre_titulo {
+	font-family: text_proxima_nova_thin;
+	font-size: 115%;
+	margin: 15px 0;
+}
+
+.titulo{
+	font-family: text_proxima_nova_thin;
+	font-size: 220%;
+	padding-top: 75px;
+}
+.titulo--alternado {
+	margin: 15px 0;
+	padding-top: 0;
+}
+.bajada {
+	font-family: text_proxima_nova_thin;
+	font-size: 115%;
+	margin: 15px 0;
+}
+
+.sub_titulo {
+	font-family: text_proxima_nova_regular;
+	font-size: 115%;
+	margin: 15px 0;
+}
+
+.parrafo {
+	font-family: text_proxima_nova_thin;
+	font-size: 100%;
+	margin: 15px 0;
+}
+
+.parrafo--alternado {
+	font-family: text_proxima_nova_regular;
+}
+
+.funciones__items--alternativo {
+	color: #00D081;
+	border: 1px solid #00D081;
+	border-left: 1.5px solid #00D081;
+	border-right: 1.5px solid #00D081;
+}
+
+.texto_button {
+	font-family: text_proxima_nova_thin;
+	font-size: 80%;
+	margin-left: 5px;
+}
+
+.enlace_bloque {
+	text-decoration: none;
+	display: inline-block;
+	color: #4d4d4d;
+	font-size: 90%;
+}
+
+
+
+
+/************** FUENTES ****************/
+@font-face{
+	font-family: text_proxima_nova_regular;
+	src: url(../font/proxima_nova_regular.otf);
+}
+
+@font-face{
+	font-family: text_proxima_nova_light;
+	src: url(../font/proxima_nova_light.otf);
+}
+
+@font-face{
+	font-family: text_proxima_nova_semibold;
+	src: url(../font/proxima_nova_semibold.ttf);
+}
+
+@font-face{
+	font-family: text_proxima_nova_thin;
+	src: url(../font/proxima_nova_thin.otf);
+}
+
+
+
+
+
+
+

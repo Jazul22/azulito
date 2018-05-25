@@ -1,0 +1,379 @@
+:root {
+	/*--varWidthPrincipal:900px;*/
+	/*--varWidthPrincipal:1170px;*/
+	--varWidthPrincipal:1170px;
+	--varColorPrincipal: #212121;
+	--varColorSecundario: #fff;
+	--varPadingtopSecion:5% 0 0 0;
+}
+
+
+.header {
+	background: url(../img/temp.jpg);
+	background-size: cover;
+	background-repeat: no-repeat; 
+	height: 1000px;
+}
+
+.header__content {
+	width: var(--varWidthPrincipal);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+		font-family: text_SourceSansPro-Regular;
+		color: var(--varColorPrincipal);
+}
+
+
+.logo {
+	color: var(--varColorPrincipal);
+	font-family: SourceSansPro-Black;
+}
+
+.menu_content {
+	width: 300px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.menu {
+	width: 260px;
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+		margin-top: 30px;
+		
+}
+
+	.menu__link {
+		width: 100%;			
+		color: var(--varColorPrincipal);
+		font-family: SourceSansPro-Black;
+	}
+
+.burger {
+	width: 30px;
+	height: 4px;
+	background-color: #000;
+}
+
+
+
+
+
+/*°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°*/
+
+
+.bienvenida {
+	width: var(--varWidthPrincipal);	
+	color: var(--varColorPrincipal);
+	height: 350px;
+	margin-top: 30%;
+	display: flex;
+	justify-content: flex-end;
+}
+/*se pordra usar space bewten vertical si antes usamos column??
+ si se puedo con flex-direction*/
+.bienvenida__content {
+	width: 50%;
+	height: 100%;
+		display: flex;
+		flex-direction:column;
+		justify-content: space-between;
+		align-items: flex-end;
+}
+	.bienvenida__content--titulo {
+		font-size: 50px;
+		font-family: text_SourceSansPro-SemiBold;
+	}
+
+.barra {
+	width: 40px;
+	height: 5px;
+	background-color: var(--varColorPrincipal);
+	display: flex;
+
+}
+
+/*°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°*/
+.main {
+	font-family: text_SourceSansPro-SemiBold;
+	color: var(--varColorPrincipal);
+	line-height: 1.8;
+}
+
+
+
+
+.who_content {
+	height: 500px;
+}
+.who {
+	width: var(--varWidthPrincipal);
+	height: 500px;
+	padding: var(--varPadingtopSecion);
+	text-align: center;
+}
+
+.who__img {
+	width: 4%;
+}
+
+/*°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°*/
+.feature__content {
+	height: 380px;
+	background-color: #EFEFEF;
+} 
+.feature {
+	width: var(--varWidthPrincipal);
+	height: 380px;
+	display: flex;
+	display: flex;
+	justify-content: space-between;
+	padding: var(--varPadingtopSecion);
+}
+
+.feature__items {
+	width: 28%;
+}
+
+.feature__img {
+	width: 15%;
+}
+/*°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°*/
+.articles__content {
+	height: 840px;
+}
+	.articles {
+		width: var(--varWidthPrincipal);
+		padding: var(--varPadingtopSecion);
+		height: 840px;
+		text-align: center;
+	}
+		.articles__person {
+			display: flex;
+			text-align: left;
+			margin: 10% 0 0 0;
+			display: flex;
+			justify-content: space-between;
+		}
+
+			.articles__items {
+				width: 32%;
+				background-color: var(--varColorPrincipal);
+				color: #fff;
+				padding: 0 4% 4% 4%;
+			}
+				.articles--barra {
+					background-color: var(--varColorPrincipal);
+					height: 6px;
+					width: 70px;
+					margin: 0  0 15% 0;
+				}
+				.articles__items:hover  .articles--barra {
+					background-color: #E64A19;
+				}
+
+		.creditos {
+			display: flex;
+			margin: 20% 0 0 0;
+		}
+
+		.articles__img {
+			height: 50px;
+			margin: 0 10% 0 0;
+		}
+/*°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°*/
+.clients__content {
+	height: 370px;
+	text-align: center;
+	background-color: #EFEFEF;
+}
+.clients {
+	height: 370px;
+	width: var(--varWidthPrincipal);
+	padding: var(--varPadingtopSecion);
+}
+	.client__img {
+		width: 15%;
+
+	}
+/*°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°*/
+.porfolio__content {
+	height: 920px;
+}
+.porfolio {
+	width: var(--varWidthPrincipal);
+	padding: var(--varPadingtopSecion);
+	height: 920px;
+	text-align: center;
+}
+	.porfoliomenu {
+		display: flex;
+		justify-content: space-between;
+		width: 60%;
+		margin:var(--varPadingtopSecion);
+	}
+		.porfolio__img__items {
+			width: 24%;
+			margin:var(--varPadingtopSecion);
+		}
+/*°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°*/
+.testimonials__content {
+	height: 315px;
+	text-align: center;
+}
+.testimonials {
+	width: var(--varWidthPrincipal);
+	height: 315px;
+}
+
+
+
+
+/*°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°*/
+.team__content {
+	height: 678px;
+	background-color: green;
+}
+.team {
+	width: var(--varWidthPrincipal);
+	height: 678px;
+	background-color: green;
+}
+/*°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°*/
+.facts__content {
+	height: 690px;
+	background-color: green;
+}
+.facts {
+	width: var(--varWidthPrincipal);
+	height: 690px;
+	background-color: green;
+}
+
+/*°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°*/
+.news__content {
+	height: 2120px;
+	background-color: green;
+}
+.news {
+	width: var(--varWidthPrincipal);
+	height: 2120px;
+	background-color: green;
+}
+/*°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°*/
+.footer__content {
+	height: 490px;
+	background-color: green;
+}
+.footer {
+	width: var(--varWidthPrincipal);
+	height: 490px;
+	background-color: green;
+}
+/*°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************************************/
+
+.romper {
+	text-decoration: none;
+	display: inline-block;
+}
+
+.centrar {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
+.colorsecundario {
+	color: #7F2D00;
+}
+
+.fuentesecundaria {
+	font-family: text_SourceSansPro-Regular;
+	text-decoration: underline #fff;  
+}
+
+
+
+.subtitle {
+		font-family: text_SourceSansPro-Bold;
+		font-size: 150%;
+}
+
+
+.parrafo {
+		font-family: text_SourceSansPro-Regular;
+		font-size: 120%;
+}
+
+
+
+.texto--derecha {
+	text-align: right;
+}
+
+
+
+/****************************************************/
+/****************************************************/
+
+
+
+
+
+
+/************** FUENTES ****************/
+@font-face{
+	font-family: text_SourceSansPro-Regular;
+	src: url(../font/SourceSansPro-Regular.ttf);
+}
+
+@font-face{
+	font-family: text_SourceSansPro-SemiBold;
+	src: url(../font/SourceSansPro-SemiBold.ttf);
+}
+
+@font-face{
+	font-family: text_SourceSansPro-Bold;
+	src: url(../font/SourceSansPro-Bold.ttf);
+}
+
+@font-face{
+	font-family: SourceSansPro-Black;
+	src: url(../font/SourceSansPro-Black.ttf);
+}
+
+@font-face{
+	font-family: text_Avenir-Roman;
+	src: url(../font/Avenir-Roman.ttf);
+}
+
+
+@font-face{
+	font-family: text_Avenir-Roman;
+	src: url(../font/Avenir-Roman.ttf);
+}
+
+
+
+

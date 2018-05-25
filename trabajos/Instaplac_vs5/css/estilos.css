@@ -1,0 +1,344 @@
+body {
+
+	/*background-color: #e84d0e;*/
+}
+
+img {
+	max-width: 100%;
+}
+
+
+
+/*******  Menu            ******/
+.contenedor_menu {
+	background: url(../img/banner_principa-1.jpg); 
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top; 
+	background-size: cover;
+	height: 70px;
+	background-color: #e84d0e;
+}
+.contenedor_menu__respaldo {
+	width: 1000px;
+	height: 70px;
+		margin-right: auto;
+		margin-left: auto;
+		padding-top: 16px;
+		padding-bottom: 14px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			position: relative;
+
+					
+}
+	.contenedor_menu_button {
+		display: flex;
+	}
+			.menu {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+					font-family: text_Avenir-Medium;
+			}
+				.menu__items {
+					color: #fff;
+					font-size: 90%;
+					text-decoration: none;
+					display: inline-block;
+						margin-right: 20px;
+						
+						height: 40px;
+						padding-top: 10px;
+
+				}
+					.menu__items:hover{
+						border-bottom: solid 1px #fff;
+					}
+
+				
+
+
+.logo{
+	width: 160px;
+}
+
+
+
+/*******  Bienvenida      ******/
+
+
+
+.bienvenidos {
+	/*background-color: rgb(232, 77, 14, 1);
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+	background-color: #e84d0e;
+		height: 700px;
+		display: flex;
+		align-items: center;*/
+
+	
+	background: linear-gradient(#e84d0edd, #e84d0edd), url(../img/foto-xl1.png); 
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+	background-color: #e84d0e;
+	height: 780px;
+		display: flex;
+		align-items: center;
+
+}
+
+		.bienvenidos__frase {
+			width: 1000px;
+				color: #fff;
+				font-family: text_Avenir-Black;
+				font-size: 460%;
+				text-align:left;
+					margin-left: auto;
+					margin-right: auto;	
+		}
+
+.parrafointro {
+		width: 1000px;
+		height: 200px;
+		color: #6f6f6e;
+		font-family: text_Avenir-Roman;
+		font-size: 100%;
+		text-align: left;
+		padding-top: 50px;
+			margin-left: auto;
+			margin-right: auto;	
+				line-height: 1.4;
+}
+
+
+.titulo {
+
+}
+
+
+
+
+
+
+/*******  Barra      ******/
+
+.barra {
+		height: 100px;
+		background-color: #e84d0e;
+}
+
+
+
+
+
+
+/*******  soluciones     ******/
+
+.solution {
+	width: 1000px;
+	height: 1030px;
+	padding-top: 60px;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+.titulo {
+	height: 150px;
+}
+
+
+.solution__content {
+	width: 1000px;
+	height: 450px;
+
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+}
+
+
+	.solution__items {
+		width: 300px;
+		height: 440px;s
+	}
+
+
+
+
+.colorfondo {
+	background-color: #e84d0e;
+}
+
+
+
+
+.precision {
+	width: 1000px;
+	height: 480px;
+	margin-left: auto;
+	margin-right: auto;
+		display: flex;
+
+	}
+
+	.precision__items {
+		width: 500px;
+		height: 480px;
+		align-items: center;
+	}
+
+
+
+
+
+
+
+
+.equipo {
+	width: 1000px;
+	height: 550px;
+	margin-left: auto;
+	margin-right: auto;
+		display: flex;
+		justify-content: space-between;
+}
+
+
+
+
+.equipo__items {
+	width: 730px;
+	height: 550px;
+}
+
+
+.footer {
+	height: 210px;
+	background-color: #e84d0e;
+}
+	.footer__contenedor {
+		width: 1000px;
+		height: 210px;
+			margin-left: auto;
+			margin-right: auto;
+			display: flex;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.romper {
+			text-decoration: none;
+			display: inline-block;
+}
+
+.colorsecundario {
+	color: #7F2D00;
+}
+
+.fuentesecundaria {
+	font-family: text_Avenir-Roman;
+	text-decoration: underline #fff;  
+}
+
+
+
+.subtitulo {
+
+}
+
+
+.parrafo {
+		width: 1000px;
+		height: 200px;
+		color: #6f6f6e;
+		font-family: text_Avenir-Roman;
+		font-size: 100%;
+		text-align: left;
+		padding-top: 50px;
+			margin-left: auto;
+			margin-right: auto;	
+				line-height: 1.4;
+}
+
+
+
+/************** FUENTES ****************/
+@font-face{
+	font-family: text_Avenir-Black;
+	src: url(../font/Avenir-Black.ttf);
+}
+
+@font-face{
+	font-family: text_Avenir-Heavy;
+	src: url(../font/Avenir-Heavy.ttf);
+}
+
+@font-face{
+	font-family: text_Avenir-Medium;
+	src: url(../font/Avenir-Medium.ttf);
+}
+
+@font-face{
+	font-family: text_Avenir-Roman;
+	src: url(../font/Avenir-Roman.ttf);
+}
+
+
+

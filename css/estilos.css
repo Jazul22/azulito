@@ -1,11 +1,243 @@
-* {
-  cursor: none;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+:root {
+	--varColorPrincipal: #0092FF;
+	--varColorSecundario: #00DCFF;
+}
+
+
+body {
+	margin: 0;
+	box-sizing: border-box;
+}
+body,html{
+	height: 100%;
+	/*background-color: #F6F7F9;*/
+}
+
+
+.contenedor {
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	justify-content: flex-end;
+}
+.menu {
+	width: auto;
+	height: 100%;
+	font-family: 'Poppins', sans-serif;
+	text-align: right;
+	padding-right: 1%;
+}
+.menu__link {
+	text-decoration: none;
+	display: block;
+	font-size: 140%;
+	color: var(--varColorPrincipal);
+	padding-top: 10px;
+}
+.menu__link:hover {
+	color: var(--varColorSecundario);
+}
+
+
+.select {
+	width: 1.2px;
+	height: 1px;
+	background-color: var(--varColorSecundario);
+	float: right;
+	margin-left: 2px;
+	visibility: hidden;
+	transition: all 0.5s ease;
+}
+
+.menu__link:hover .select{
+	visibility: visible;
+	height: 22px;
+}
+
+
+
+.mantenimiento {
+	width: 100%;
+	height: 90vh;
+}
+
+
+		.fondo {
+		width: 100%;
+		height: 100%;
+		margin: 0 auto;
+		display: flex;
+		align-items: flex-end;
+	}
+
+		.fondo__base {
+			width: 100%;
+			height: 100%;
+			margin: 0 auto;
+			background-image: url(../img/fondo_b.png);
+			background-repeat: no-repeat;
+			background-size: auto 80%;
+			background-position: bottom;
+		}
+
+		.fondo__foto {
+			width: 100%;
+			height: 100%;
+			margin: 0 auto;
+			background-image: url(../img/fondo_a.png);
+			background-repeat: no-repeat;
+			background-size: auto 80%;
+			background-position: bottom;
+			opacity: 1;
+			mix-blend-mode: hard-light;
+			/*transition: opacity 3s;*/
+			transition: all 3s ease;
+		}
+			.fondo__foto:hover {
+				width: 100%;
+				height: 100%;
+				margin: 0 auto;
+				background-image: url(../img/fondo_a.png);
+				background-repeat: no-repeat;
+				background-size: auto 80%;
+				background-position: bottom;
+				opacity: 0;
+				/*filter: blur(5px);*/
+		}
+
+.titulo{
+	width: 50%;
+	height: 50%;
+	font-family: 'Alfa Slab One', cursive;
+		display: flex;
+		font-size: 10vw;
+		align-items: center;
+		justify-content: center;
+			/*color: yellow;*/
+			color:var(--varColorSecundario);
+			position: fixed;
+			bottom: 20%;
+			left: 0;
+			right: 0;
+			margin: auto;
+			z-index: 2;
+				word-wrap: break-word;
+				mix-blend-mode: hard-light;
+						/*transition: color 3s;*/
+						transition: all 3s ease;
+
+}
+
+
+
+.titulo:hover{
+	color: var(--varColorPrincipal);
+	mix-blend-mode: color-dodge;
+}
+
+
+
+/*****************************************************/
+.contenido__ejercicios {
+	width: 100%;
+	height: 1000px;
+	text-align: center;
+}
+
+
+.ejercicios {
+	width: 100%;
+	height: 600px;
+}
+		.ejercicios__titulo {
+			width: auto;
+			display: inline-block;
+			/*background-color: var(--varColorPrincipal);*/
+			color: var(--varColorSecundario);
+			font-family: 'Poppins', sans-serif;
+			text-transform: uppercase;
+			letter-spacing: 10px;
+			font-size: 160%;
+				padding: 12px 24px;
+				margin: 20px;
+				border: 1px solid var(--varColorPrincipal);
+					transition: all 0.5s ease;
+		}
+
+		.ejercicios__titulo:hover {
+			background-color: var(--varColorSecundario);
+			color: var(--varColorPrincipal);
+		}
+
+		.ejercicios__barra {
+			display: block;
+			text-decoration: none;
+		}
+
+
+
+
+
+.inside {
+	width: 100%;
+	height: 400px;
+	background-image: url(../trabajos/img/examen__4.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+}
+.parallax {
+	width: 100%;
+	height: 400px;	
+	background-image: url(../trabajos/img/examen__6.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+}
+.unicorn {
+	width: 100%;
+	height: 400px;	
+	background-image: url(../trabajos/img/examen__5.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+}
+.wally {
+	width: 100%;
+	height: 400px;	
+	background-image: url(../trabajos/img/examen__2.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+}
+.revelation {
+	width: 100%;
+	height: 400px;	
+	background-image: url(../trabajos/img/examen__1.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+}
+
+
+
+/************************************************************************/
+
+
+.behance {
+	width: 100%;
+	height: 400px;	
+	background-image: url(../trabajos/img/behance.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: top;
+		filter: grayscale(100%);
+			transition: all 0.5s ease;
+}
+
+
+.behance:hover {
+	filter: grayscale(0);
 }
 
 
@@ -17,144 +249,14 @@
 
 
 
-  /* CODIGOS DE CURSOR CIRCULAR */
-
-
-html body .box {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  top: 50%;
-  left: 50%;
-  margin: -50 0 0 -50px;
-  background: rgba(255, 255, 255, 0.08);
-  border-radius: 100px;
-  -webkit-backface-visibility: hidden;
-  opacity: 10;
-  cursor: none;
-  z-index: 10;
-}
-html body .box.arrow {
-  background: url('http://lmgtfy.com/assets/mouse_arrow_windows_aero-b118000dc97d4558d6db021793acc613.png') no-repeat 0 0 transparent;
-  border-radius: 0;
-}
 
 
 
 
 
-  /*  SON CODIGOS DEL CURSOR CIRCULAR */
-
-/*
-html {
-
-  background-color: #3366CC;
-  min-height: 100%;
-  height: 100%;
-  cursor: none;
-  z-index: 1;
-}
-
-
-*/
-
-  /* CODIGOS DE MENU CHICLE */
-
-
-
-body{
-  margin: 0;
-  padding: 0;
-    font-family: "Helvetica Neue",sans-serif;
-    font-weight: lighter;
-
-}
-
-nav{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100px;
-  padding: 10px 100px;
-  box-sizing: border-box;
-  transition: 1s;
-}
-
-nav.black{
-  background: rgba(0,0,0,0.8);
-  height: 100px;
-  padding: 10px 100px;
-}
-
-nav .logo{
-  padding: 22px 20px;
-  height: 80px;
-  float: left;
-  font-size: 24px;
-  transition: 1s;
-  font-weight: bold;
-
-}
-
-nav.black .logo{
-  color: #fff;
-}
-nav ul{
-  list-style: none;
-  float: right;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-nav ul li {
-  list-style: none;
-}
-nav ul li a {
-  line-height: 80px;
-  color: #151515;
-  padding: 12px 30px;
-  text-decoration: none;
-  /* text-transform: uppercase;  */
-  font-weight: bold;
-  transition: 1s;
-}
 
 
 
 
-nav.black ul li a{
-  color: #fff;
-}
 
-nav ul li a:focus{
-  outline: none;
-}
 
-nav ul li a.active{
-  background: #E2472F;
-  color: #fff;
-  border-radius: 6px;
-}
-
-  /* text-transform: uppercase;  */
-section.sec1{
-  width: 100%;
-  height: 100vh;
-  background: url(../img/F_fondo1.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-.content{
-  margin-top: 80px;
-}
-
-.content p{
-  width: 900px;
-  margin: 30px auto;
-  text-align: justify;
-  font-size: 20px;
-  line-height: 30px;
-}
